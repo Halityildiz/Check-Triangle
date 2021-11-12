@@ -7,17 +7,10 @@ function message() {
   var thirdNumber = parseInt(document.getElementById("thirdvalue").value);
   var text;
   var array = [firstNumber, secondNumber, thirdNumber];
-
   
   if (firstNumber <= 0 || secondNumber <= 0 || thirdNumber <= 0) {
       alert("Invalid value!");
       text = "A triangle must have 3 positive value!";
-  }
-
-  else if (
-    (firstNumber != Number || secondNumber != Number || thirdNumber != Number)) {
-        alert("Invalid value!");
-        text = "A triangle must have 3 positive value!";
   }
 
   else if (
